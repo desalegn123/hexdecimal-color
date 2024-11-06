@@ -1,4 +1,5 @@
 import RandomColor from "./components"
+import ColorTest from "./components/ColorTest"
 
 function App() {
   
@@ -6,8 +7,9 @@ function App() {
   return (
     <>
       <div>
+        <ColorTest/>
      
-        <RandomColor/>
+        {/* <RandomColor/> */}
       </div>
       
     </>
